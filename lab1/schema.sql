@@ -21,7 +21,7 @@ CREATE TABLE passengers (
 );
 
 CREATE TABLE airports (
-    airport_id int GENERATED ALWAYS AS IDENTITY,
+    airport_id INT GENERATED ALWAYS AS IDENTITY,
     iata_code CHAR(3) NOT NULL,
     name VARCHAR(150) NOT NULL,
     city VARCHAR(100) NOT NULL,
